@@ -1,4 +1,4 @@
-This code implements the core components of the Stochastic Collocation Monte Carlo (SCMC) method. It is organized into modular functions:
+This code implements the core components of the **Stochastic Collocation Monte Carlo (SCMC) method**. It is organized into modular functions:
 
 build_moment_matrix(moment_fn, N):        Constructs the (N+1)x(N+1) Hankel moment matrix M using a user-provided moment function m(k) = E[X^k].
 gauss_quadrature_from_moment_matrix(M):   Computes recurrence coefficients (alpha, beta), builds the Jacobi matrix, and returns collocation nodes (Gauss points) and weights via eigen-decomposition.
