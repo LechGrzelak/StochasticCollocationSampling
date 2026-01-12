@@ -7,5 +7,5 @@ lagrange_polynomial_values(y_i, x_i, X):  Evaluates the Lagrange interpolant at 
 These components allow efficient sampling from computationally expensive distributions by combining a small number of exact evaluations with many cheap samples, following the SCMC approach.
 Reference:
 
-Grzelak, L. A.; Witteveen, J. A. S.; Suárez-Taboada, M.; Oosterlee, C. W.
-“The Stochastic Collocation Monte Carlo sampler: highly efficient sampling from ‘expensive’ distributions.” Quantitative Finance, 19(2):339–356, 2019. DOI: https://doi.org/10.1080/14697688.2018.1459807.
+**Grzelak, L. A.; Witteveen, J. A. S.; Suárez-Taboada, M.; Oosterlee, C. W.
+“The Stochastic Collocation Monte Carlo sampler: highly efficient sampling from ‘expensive’ distributions.” Quantitative Finance, 19(2):339–356, 2019. DOI: https://doi.org/10.1080/14697688.2018.1459807.**
